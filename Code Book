@@ -1,0 +1,30 @@
+run_analysis.R performs the data cleaning in the following steps:
+
+1 readin all subjects 
+features 
+the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
+activities 
+list of activities performed 
+subject_test
+contains test data of 9/30 volunteer test subjects being observed
+x_test
+contains recorded features test data
+y_test 
+contains test data of activities’code labels
+subject_train 
+contains train data of 21/30 volunteer subjects being observed
+x_train
+contains recorded features train data
+y_train
+contains train data of activities’code labels
+
+2 merge training and test datasets 
+append x train and x test and name it 'x'
+append y train and y test and name it 'y'
+append subject train and subject test and name it 'subject'
+get merge data from combining 'subject' and 'x' and 'y' and name it tidydata
+
+3 extract columns with mean and standard deviation 
+select subject,code and columns with mean, std from tidydata
+
+4 clean column names
