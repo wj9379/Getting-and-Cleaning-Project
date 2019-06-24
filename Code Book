@@ -27,4 +27,8 @@ get merge data from combining 'subject' and 'x' and 'y' and name it tidydata
 3 extract columns with mean and standard deviation 
 select subject,code and columns with mean, std from tidydata
 
-4 clean column names
+4 use activity name to name activities in the "tidydata"
+
+5 clean column names
+
+6 take averge of datasets by subject and activity
